@@ -6,7 +6,7 @@ import Landing from "./components/Landing";
 import Pricing from "./components/Pricing";
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 
-export default () => {
+const App = () => {
   return (
     <div>
       <StylesProvider>
@@ -20,3 +20,5 @@ export default () => {
     </div>
   )
 }
+
+export default App;
