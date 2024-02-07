@@ -8,7 +8,6 @@ const mount = (el, { onNavigate, defaultHistory, initialPath }) => {
     initialEntries: [initialPath]
   });
 
-
   if (onNavigate) {
     history.listen(onNavigate);
   }
